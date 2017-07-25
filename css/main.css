@@ -1,0 +1,239 @@
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height:100%;
+  font-size: 100%;
+  background-color:#FFFFFF;
+}
+
+body {
+  color:#222527;
+  min-height: 100%;
+}
+
+/* Medium and small screens (640px) */
+@media (min-width: 640px) {
+  html {
+    font-size: 112%;
+  }
+
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right:1rem;
+  }
+  .column.full { width:100%;}
+  .column.two-thirds {width:66.7%;}
+  .column.half {width:50%;}
+  .column.third {width:33.3%;}
+  .column.fouth {width:25%;}
+  .column.flow-opposite {float:right;}
+}
+
+/* Large screens (1024px) */
+@media (min-width: 1024px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+
+/* Styling the homepage elements */
+.homepage {
+  background: #FFFFFF;
+  background-image: url('../assets/images/face2.svg');
+  background-position:right;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  padding-top: 50px;
+  background-position:;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.hero-content {
+}
+
+.hero-title {
+  font-family: Didot, serif;
+  color: #222527;
+  font-size: 64pt;
+  decoration: none;
+  padding:0px;
+  line-height:auto;
+  text-align:left;
+}
+
+.hero-subtitle {
+  font-family: Gill Sans, sans-serif;
+  color: #222527;
+  font-size: 18pt;
+  font-weight: lighter;
+  decoration: none;
+  margin-top:-100;
+  line-height:auto;
+}
+
+.hero-names {
+  font-family: Gill Sans, sans-serif;
+  font-size:12pt;
+  font-weight: lighter;
+  decoration: none;
+  float:left;
+  margin-right:1em;
+  margin-top: 0;
+  line-height:auto;
+}
+
+i.fa.fa-copyright {
+  font-size:8px;
+  position:relative;
+  vertical-align: super;
+}
+
+.hero-header3 {
+  font-family:Gill Sans, sans-serif;
+  font-size:28px;
+  font-weight: 400;
+  decoration:none;
+  text-align:right;
+  line-height:0;
+  margin-top:50px
+}
+
+.hero-header4 {
+  font-family:Gill Sans, sans-serif;
+  font-size:28px;
+  font-weight: lighter;
+  decoration:none;
+  text-align:right;
+  line-height:0;
+}
+
+i.fa.fa-circle {
+  font-size:3px;
+  position:relative;
+  vertical-align: middle;
+}
+
+/* Social Links */
+.social {
+  list-style:none;
+  font-size:18px;
+  overflow:hidden;
+  text-align:right;
+}
+
+/*Color of the Social Buttons*/
+.fa {
+  color:#222527;
+}
+
+/*Twitter Button*/
+.btn-t {
+  display:inline-block;
+  border-radius:100px;
+  color:#222527;
+  text-decoration: none;
+  padding:100%, 100%, 100%, 100%;
+  background: #F1DD82;
+  border: none;
+  height:25px;
+  width:25px;
+  line-height:25px;
+  text-align: center;
+  cursor:pointer;
+  margin:10px;
+}
+
+/*Facebook Button*/
+.btn-f {
+  display:inline-block;
+  border-radius:100%;
+  color:#222527;
+  text-decoration: none;
+  padding:100%, 100%, 100%, 100%;
+  background: #F1DD82;
+  border: none;
+  height:25px;
+  width:25px;
+  line-height:25px;
+  text-align: center;
+  cursor:pointer;
+  margin:10px;
+}
+
+/*Instagram Button*/
+.btn-i {
+  display:inline-block;
+  border-radius:100px;
+  color:#222527;
+  text-decoration: none;
+  padding:100%, 100%, 100%, 100%;
+  background: #F1DD82;
+  border: none;
+  height:25px;
+  width:25px;
+  line-height:25px;
+  text-align: center;
+  cursor:pointer;
+  margin:10px;
+}
+
+/*Arrow Button to Page Down*/
+.arrowdown {
+  display:inline-block;
+  border-radius:100px;
+  color:#222527;
+  text-decoration: none;
+  background: #F1DD82;
+  border: none;
+  height:100px;
+  width:100px;
+  line-height:100px;
+  text-align: center;
+  cursor:pointer;
+  margin-bottom:100px;
+  font-size:54px;
+  font-weight:lighter;
+  text-align:center;
+}
+
+/*The arrow within the arrow button to page down */
+i.fa.fa-arrow-down {
+  text-align:center;
+  color:#FFFFFF;
+  display:inline-block;
+}
+
+.go-down {
+  display:inline-block;
+  font-family: Gill Sans, sans-serif;
+  color: #222527;
+  font-size: 12pt;
+  font-weight: lighter;
+  decoration: none;
+  padding:20px;
+}
+
+/*Trailer styling*/
+.trailer-content {
+  font-family: Gill Sans, sans-serif;
+  color: #222527;
+  font-size: 24pt;
+  font-weight:lighter;
+}
+
+.jumphere {
+  line-height:0;
+}
+
+#trailer {
+  margin:1em;
+  width:90%;
+  align-items:center;
+}
